@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Playwrite+AU+QLD:wght@100..400&display=swap" rel="stylesheet">
+    
+    <title>CV Dylan Parra</title>
+   
+   <style>
+          body{
+          /* Interseción de las margenes */
+        margin:0;
+          /* Espaciado interno */
+        padding: 0;
+          /* color pantalla etiqueta cuerpo */
+        background: #000000;
+      }
+      .name{
+          /*ancho*/
+          width:100% ;
+          /*largo*/
+          height:300px;
+          /*color de fondo div */
+          background: #240046;
+          /* Colocar el color de la clase estilo diagonal */
+          transform: skewY(-5deg);
+       }        
+       .name .content {
+         width: 50%;
+          height: 50%;
+          /*Marcador de posición */
+          position: absolute;
+          /*Direccion hacia donde mover el estilo seleccionado */
+          left:25%;
+       }
+         
+         .name .content .p-1{
+            color: black;
+            font-family: "Open Sans", serif;
+            font-weight: bold;
+            /*Tamaño de la letra*/
+            font-size: 45px;
+            transform: skewY(5deg);
+         }
+         .name .content .p-2{
+            color: black;
+            font-family: "Open Sans", serif;
+            font-weight: bold;
+            /*Tamaño de la letra*/
+            font-size: 25px;
+            transform: skewY(5deg);
+         }
+         
+         .info{
+            width:90%;
+            height: auto;
+            background: #bdaeb4;
+            /* Colocación de espacio para evitar el cruce por el div anterior */
+            margin: 5% auto;
+         /* Asignación margenes div clase info */
+            padding: 20px;
+         }
+     .info .tituloseccion {
+    
+     color: black;
+     /* asignación de fondo de texto */
+     font-family: 'gill Sans',  sans-serif;
+     /* asignación de tamaño de la letra*/
+     font-size: xx-large;
+     /* Alineación del texto de la mitad de la pagina */
+     text-align: center;
+     /* Asignación de la negrilla en el texto */
+     font-weight: bolder;
+     /* Asignación linea debajo del titulo donde "dashed" significa punteado*/
+     border-bottom: 2px rgb(222, 196, 196);            
+    }
+    </style>
+</head>
+<body>
+    <!--Creacion de la división-->
+    <!--Creacion de la clase acerca de perfil laboral en la división-->
+        <div class="name">
+            <div class="content">
+            <p class="p-1">Dylan Andrés Parra Espinosa</p>
+            <p class="p-2">21 Años , Estudiante</p>
+        </div>
+
+
+        <div>
+          <div class="info">
+          <p class="tituloinfo">Información personal</p>
+          <p class="titulonombre">Nombres y apellidos</p>
+          <p class="infonombre">Dylan Andrés Parra Espinosa </p>
+        </div>          
+</body>
+</html>
