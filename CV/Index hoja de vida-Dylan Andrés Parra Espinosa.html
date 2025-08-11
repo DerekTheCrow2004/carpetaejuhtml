@@ -1,0 +1,202 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial
+scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Playwrite+AU+QLD:wght@100..400&display=swap" rel="stylesheet">
+    <title>CV Dylan Parra</title> 
+ 
+    <style> 
+         
+        body{  
+             /* Inserción de las margenes */ 
+            margin:0; 
+            /* Espaciado interno*/ 
+            padding: 0; 
+            /*color pantalla etiqueta cuerpo */ 
+            background: #000000; 
+        }   
+         
+        .name{ 
+            /*ancho*/ 
+            width:100% ;  
+            /*largo*/ 
+            height: 300px; 
+            /*Color de fondo div  */ 
+            background: #240046; 
+            /* Colocar el color de la clase estilo diagonal */ 
+            transform: skewY(-5deg); 
+         } 
+ 
+         /*Creación de una cadena de estilo CSS*/ 
+         .name .content {  
+            width: 50%; 
+            height: 50%; 
+            /* Marcador de posición */ 
+            position:absolute; 
+            /*Dirección hacia donde mover el estilo seleccionado */ 
+            left:25%; 
+         } 
+         .name .content .p-1 { 
+            color:black; 
+            /*Estilo de letra asignado desde google fonts*/ 
+            font-family: "Open Sans", serif; 
+            font-weight: bold; 
+            /*Tamaño de la letra*/ 
+            font-size: 45px; 
+            /*Evitar el ladeado del texto volviendo a su posición de 
+origen */ 
+            transform: skewY(5deg); 
+            /*Margen para evitar el espacio de abajo(Buttom)*/ 
+            margin-bottom: 0; 
+         } 
+         .name .content .p-2 { 
+            color:black; 
+            font-family: "Open Sans", serif; 
+            font-size: 25px; 
+            transform: skewY(5deg); 
+            /*Margen para evitar el espacio de arriba(top)*/ 
+            margin-top: 0; 
+            margin-bottom: 0; 
+         } 
+         /* Creación de los estilos de imagen ( Opcional) */ 
+         .name .img { 
+            position: absolute; 
+            top:18%; 
+            right: 5%; 
+            width: 180px; 
+            height: 180px; 
+            border-radius: 100%; 
+            transform: skewY(5deg); 
+            /*Redireccionar la imagern*/ 
+            overflow: hidden; 
+         } 
+         .name .img img { 
+            width:180px ; 
+            height: 320px; 
+         } 
+         .info { 
+            width:90%; 
+            height: auto; 
+            background:   #92858a; 
+            /* Colocación de espacio para evitar el cruce con el div anterior */ 
+            margin: 5% auto; 
+            /*Asignación margenes div clase info */ 
+            padding: 20px; 
+            border-radius: 20px; 
+         } 
+         .info .tituloseccion { 
+           color:  black; 
+           /*asignación de fondo de texto */  
+           font-family: 'Gill Sans',  sans-serif; 
+           /*asignación de tamaño de la letra*/ 
+           font-size: xx-large; 
+           /* Alineación del texto en la mitad de la página */ 
+           text-align: center; 
+           /*Asignación de la negrilla en el texto */ 
+           font-weight: bolder; 
+           /*Asignación linea debajo del titulo donde "dashed" significa punteado*/ 
+           border-bottom: 2px  rgb(222, 196, 196); 
+         } 
+ 
+         .info .titulonombre { 
+            color:black; 
+            font-family:'Gill Sans',  sans-serif ; 
+            font-weight: bolder; 
+            font-size: large; 
+            /* codigo para que quede un elemento seguido de otro*/ 
+            display: inline; 
+            margin-right: 20px; 
+         } 
+ 
+         .info .infonombre { 
+            color:black; 
+            font-family:'Gill Sans',  sans-serif ; 
+            font-weight: normal; 
+            font-size: large; 
+            display: inline; 
+         } 
+    </style> 
+</head> 
+<body>  
+    <!--Creación de la división --> 
+    <!-- Creación de la clase acerca de perfin laboral en la división --> 
+     <div class="name"> 
+        <!-- Creación de la imagen para la hoja de vida --> 
+         <div class="img"> 
+            <img src="foto para hoja de vida.jpg" alt=""> 
+         </div> 
+        <!--Creación de la clase interna de la división de clase name--> 
+         <div class="content"> 
+            <!--Creación de la clase para cada uno de los parrafos --> 
+            <p class="p-1">Dylan Andrés Parra Espinosa</p> 
+            <p class="p-2"> 21 Años , Estudiante</p> 
+        </div> 
+    </div>  
+ 
+     <div class="info"> 
+        <p class="tituloseccion">Información Personal</p> 
+        <p class="titulonombre">Nombres y apellidos:</p> 
+        <p class="infonombre">Dylan Andrés Parra Espinosa</p><br> 
+        <p class="titulonombre">Telefono:</p> 
+        <p class="infonombre">(+57)3222170388</p><br> 
+        <p class="titulonombre">Email:</p> 
+        <p class="infonombre">dylan.parra@pi.edu.co</p><br> 
+ 
+     </div> 
+ 
+    <div class="info"> 
+        <p class="tituloseccion">Perfil Estudiantil</p> 
+        <p class="infonombre">Estudiante con interés de aprender el Tecnico desarrollo en software y aplicativos móviles, soy respetuso,
+                atento en las clases, soy abierto a cualquier tema dentro o fuera en clases sea temas serios o fuera de clases
+               si yo quiero algo en la vida es esforazme para tener algo en el futuro, ademas "soy el tipo de persona que si me preguntan algo
+               y no se la respuesta voy a decir que no la se, pero puedo asegurar que investigare a fondo para encontrar esa respuesta"</p> 
+    </div> 
+ 
+     <div class="info"> 
+        <p class="tituloseccion">Educación e información</p> 
+        <p class="titulonombre">Básica Primaria:</p> 
+        <p class="infonombre">Colegio Miguel De Cervantes soacha-Compartir(2015)</p><br> 
+        <p class="titulonombre">Básica Secundaria:</p> 
+        <p class="infonombre">Institucion educativa ciudad la hormiga putumayo 
+(2022)</p><br> 
+        <p class="titulonombre">Educación superior:</p> 
+        <p class="infonombre">Politecnico internacional -En curso 
+</p><br> 
+ 
+     </div> 
+ 
+     <div class="info"> 
+        <p class="tituloseccion">Cursos y certificaciones </p> 
+        <li> 
+            <p class="infonombre">Grado 9 Basica Primaria (2019)</p><br> 
+        </li> 
+        <li> 
+            <p class="infonombre">Grado 11 Basica Secundaria (2022)</p><br> 
+        </li> 
+     
+     </div> 
+ 
+     <div class="info"> 
+        <p class="tituloseccion">Experiencia laboral </p> 
+        <p class="titulonombre">Nombre de la empresa  :</p> 
+        <p class="infonombre">Almacen TecnoKids 
+</p><br> 
+        <p class="titulonombre">Funciones:</p> 
+        <p class="infonombre">Trabajos Varios</p><br> 
+        <p class="titulonombre">Año de labor:</p> 
+        <p class="infonombre"> 20/01/2023 inicie mi labor y sali de mi labor el 25/07/2024</p><br> 
+        <!--Experiencia laboral 2 --> 
+        <p class="titulonombre">Nombre de la empresa:</p> 
+        <p class="infonombre">Velas solo velas</p><br> 
+        <p class="titulonombre">Funciones:</p> 
+        <p class="infonombre">Trabajos Varios</p> 
+        <p class="titulonombre">Año de labor:</p> 
+        <p class="infonombre">15/08/2024 inicie mi labor y sali de mi labor el 20/06/2025</p><br> 
+ 
+     </div> 
+</body> 
+</html> 
