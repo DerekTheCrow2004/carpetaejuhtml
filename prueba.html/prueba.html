@@ -1,0 +1,238 @@
+<!--Etiqueta Doctype-->
+<!DOCTYPE html>
+<!--Etiqueta html-->
+<html lang="en">
+    <!--Etiqueta head-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Mi primer parcial de HTML-->
+    <title>Mi primer parcial de HTML</title>
+    <!--Etiqueta link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!--Etiqueta style-->
+<style>
+body{
+    background-color: lightblue;
+}
+
+body{  
+             /* Inserción de las margenes */ 
+            margin:0; 
+            /* Espaciado interno*/ 
+            padding: 0; 
+            /*color pantalla etiqueta cuerpo */ 
+            background: lightblue; 
+        }   
+         
+        .name{ 
+            /*ancho*/ 
+            width:100% ;  
+            /*largo*/ 
+            height: 300px; 
+            /*Color de fondo div  */ 
+            background: lightblue; 
+            /* Colocar el color de la clase estilo diagonal */ 
+            transform: skewY(-5deg); 
+         } 
+ 
+         /*Creación de una cadena de estilo CSS*/ 
+         .name .content {  
+            width: 50%; 
+            height: 50%; 
+            /* Marcador de posición */ 
+            position:absolute; 
+            /*Dirección hacia donde mover el estilo seleccionado */ 
+            left:25%; 
+         } 
+         .name .content .p-1 { 
+            color:black; 
+            /*Estilo de letra asignado desde google fonts*/ 
+            font-family: "Open Sans", serif; 
+            font-weight: bold; 
+            /*Tamaño de la letra*/ 
+            font-size: 45px; 
+            /*Evitar el ladeado del texto volviendo a su posición de 
+origen */ 
+            transform: skewY(5deg); 
+            /*Margen para evitar el espacio de abajo(Buttom)*/ 
+            margin-bottom: 0; 
+         } 
+         .name .content .p-2 { 
+            color:black; 
+            font-family: "Open Sans", serif; 
+            font-size: 25px; 
+            transform: skewY(5deg); 
+            /*Margen para evitar el espacio de arriba(top)*/ 
+            margin-top: 0; 
+            margin-bottom: 0; 
+         } 
+         /* Creación de los estilos de imagen ( Opcional) */ 
+         .name .img { 
+            position: absolute; 
+            top:18%; 
+            right: 5%; 
+            width: 180px; 
+            height: 180px; 
+            border-radius: 100%; 
+            transform: skewY(5deg); 
+            /*Redireccionar la imagern*/ 
+            overflow: hidden; 
+         } 
+         .name .img img { 
+            width:180px ; 
+            height: 320px; 
+         } 
+         .info { 
+            width:90%; 
+            height: auto; 
+            background:   #92858a; 
+            /* Colocación de espacio para evitar el cruce con el div anterior */ 
+            margin: 5% auto; 
+            /*Asignación margenes div clase info */ 
+            padding: 20px; 
+            border-radius: 20px; 
+         } 
+         .info .tituloseccion { 
+           color:  black; 
+           /*asignación de fondo de texto */  
+           font-family: 'Gill Sans',  sans-serif; 
+           /*asignación de tamaño de la letra*/ 
+           font-size: xx-large; 
+           /* Alineación del texto en la mitad de la página */ 
+           text-align: center; 
+           /*Asignación de la negrilla en el texto */ 
+           font-weight: bolder; 
+           /*Asignación linea debajo del titulo donde "dashed" significa punteado*/ 
+           border-bottom: 2px  crimson; 
+         } 
+ 
+         .info .titulonombre { 
+            color:black; 
+            font-family:'Gill Sans',  sans-serif ; 
+            font-weight: bolder; 
+            font-size: large; 
+            /* codigo para que quede un elemento seguido de otro*/ 
+            display: inline; 
+            margin-right: 20px; 
+         } 
+ 
+         .info .infonombre { 
+            color:black; 
+            font-family:'Gill Sans',  sans-serif ; 
+            font-weight: normal; 
+            font-size: large; 
+            display: inline; 
+         } 
+</style>
+</head>
+<body>
+    <!--Creacion de division-->
+    <!--creacion del titulo de la prueba HTML-->
+    <div class="name"> 
+         <div class="img"> 
+            <img src="Imagen TT.jpg" alt="https://www.top10listas.com/2023/07/10-curiosidades-sobre-el-rock"> 
+         </div> 
+        <!--Creación de la clase interna de la división de clase name--> 
+         <div class="content"> 
+            <!--Creación de la clase para cada uno de los parrafos --> 
+            <p class="p-1">HISTORIA DEL ROCK'N'ROLL</p> 
+            <p class="p-2"> Dylan Andrés Parra Espinosa</p> 
+            
+            
+
+        </div> 
+    </div>  
+ 
+     <div class="info"> 
+        <p class="tituloseccion">Inicio Historia Del Rock'N'Roll</p> 
+        <p class="titulonombre">El Rock and Roll comenzó en Estados Unidos a mediados de la década de 1950, como una fusión de géneros afroamericanos como el Rhythm and Blues y el Country, además de influencias del jazz y el boogie woogie. Figuras clave como Sister Rosetta Tharpe, Alan Freed, Chuck Berry y Little Richard fueron pioneros del género, que luego explotó con artistas como Elvis Presley y se difundió globalmente. </p> 
+    
+     </div> 
+     <div class="info">
+        <p>Como Es la vestimenta del Rock'N'Roll:</p>
+        <p>surgió como una manifestación de rebeldía y desinhibición que evolucionó con el género, influenciada por figuras como Elvis Presley, quien introdujo pantalones pitillo y chaquetas de cuero en los 50, y Little Richard, con su estética extravagante y llena de brillos. Con el tiempo, estilos como el hippie (pelo largo, ropa floral), el punk (taches, crestas) y el glam rock (pelo grande, lentejuelas) enriquecieron la estética del rock, consolidando una imagen que sigue siendo un símbolo de la cultura musical. </p>
+            <img src="Vestimenta RnR 2.jpeg" alt="https://rocanrol.net/explorando-el-universo-del-rock-en-la-moda-mas-que-un-estilo-una-historia-viva/"> 
+         </div> 
+    
+     </div>
+        
+</body>
+<div class="info">
+    <p>Bandas de Rock</p>
+    <p>LEYENDAS DEL ROCK</p>
+    <ol>
+      <li>The Beatles</li>
+      <li>U2</li>
+      <li>Pink Floyd</li>
+      <li>Led Zeppelin</li>
+      <li>The Who</li>
+      <li> Radiohead</li>
+      <li>Nirvana</li>
+      <li>Rolling Stones</li>
+      <li>Queen</li>
+      <li>AC/DC</li>
+      <li> Aerosmith </li>
+      <li>Kiss</li>
+</div>
+
+</html>
+
+<body>
+<div class="info">
+    <p>mejor cancion de una de las primeras bandas antiguas</p>
+    <p>The Beatles</p>
+    <sub>Here comes the sun, doo-doo-doo
+Here comes the sun
+And I say, "It's all right"
+Little darlin'
+It's been a long, cold, lonely winter
+Little darlin'
+It feels like years since it's been here
+Here comes the sun, doo-doo-do
+Here comes the sun
+And I say, "It's all right"
+Little darlin'
+The smile's returning to the faces
+Little darlin'
+It seems like years since it's been here
+Here comes the sun
+Here comes the sun
+And I say, "It's all right"
+Sun, sun, sun, here it comes
+Sun, sun, sun, here it comes
+Sun, sun, sun, here it comes
+Sun, sun, sun, here it comes
+Sun, sun, sun, here it comes
+Little darlin'
+I feel that ice is slowly melting
+Little darlin'
+It seems like years since it's been clear
+Here comes the sun, doo-doo-doo
+Here comes the sun
+And I say, "It's all right"
+Here comes the sun, doo-doo-doo
+Here comes the sun
+It's all right
+It's all right</sub>
+</div>
+
+<div class="info">
+   <p>MUERTES DE ROCK MAS IMPORTANTES DE LA HISTORIA </p>
+   <p> "Club de los 27"</p>
+   <nav>
+        <ul>
+             <li><a href="https://lashistoriasdelrock.com/el-dia-que-murio-kurt-cobain/">Kurt Cobain"Nirvana"</a></li>
+             <li><a href="https://lashistoriasdelrock.com/dia-que-murio-jim-morrison-final-un-icono/">Jim Morrison"The Doors"</a> </li>
+      </ul>
+   </nav>
+
+</div>
+<footer>
+    Derechos reservados por Dylan Andrés Parra Espinosa
+</footer>
+
+
+</body>
