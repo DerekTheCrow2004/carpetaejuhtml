@@ -1,0 +1,123 @@
+.container {
+    /* medida de posición */
+    position: relative;
+    /* Ancho*/
+    width:500px ;
+    /* largo*/
+    height:200px ;
+    /* bordes del rectangulo */
+    border: 2px dashed black;
+}
+
+[class^="box"] {
+   width:120px ;
+   height:50px ;
+   /*Estilo del texto*/
+   font-weight: bold;
+   /* Espaciado del texto*/
+   line-height:1.5;
+   /*Alineacion Del Texto*/
+   text-align: center;
+}
+
+.box-1{
+    position: absolute;
+    background-color: red;
+}
+
+.box-2{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: crimson;
+}
+
+.box-3{
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: brown;
+}    
+
+.box-4{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    background-color: purple;
+}    
+
+.box-5{
+    position: absolute;
+    top: 70px;
+    right: 190px;
+    left: 190px;
+    bottom: 70px;
+    background-color: palevioletred;
+}    
+
+.box-6{
+    position: absolute;
+    top: 70px;;
+    right: 0;
+    background-color: violet;
+}    
+
+.box-7{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background-color: plum;
+}   
+
+.box-8{
+    position: absolute;
+    bottom: 0;
+    left: 190px;
+    background-color: gray;
+}    
+
+.box-9{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    background-color: paleturquoise;
+}    
+
+.static{
+    position: static;
+    background: lightblue;
+    padding: 10px;
+}
+
+.relative{
+    position: relative;
+    top:20px ;
+    left:50px ;
+    background: darkblue;
+    padding: 10px;
+}
+
+.absolute{
+    position: absolute;
+    bottom:20px ;
+    right: 50px; 
+    background: blue;
+    padding: 10px;
+}
+
+.sticky{
+    position: sticky;
+    background: darkviolet;
+    padding: 10px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 20px; ;
+    left:50px ;
+    background: purple;
+    padding: 10px;
+}
