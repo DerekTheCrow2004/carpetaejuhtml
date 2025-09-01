@@ -1,0 +1,151 @@
+/* Creación de la propiedad para todos los elementos "*" */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* Creacion color fondo de pantalla */
+body {
+    background-color: #FFFFFF;
+}
+
+header{
+    display: flex;
+
+    justify-content: end;
+    height: 60px;
+    padding: 0 12px;
+}
+
+header .options {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header .options  a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color:black;
+}
+
+header .options a svg {
+    height: 24px;
+    width: 24px;
+}
+
+header .options a img {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+
+header .options a svg {
+    height: 24px;
+    width: 24px;
+}
+
+/*Creacion color fondo de pantalla */
+body {
+    background-color: #FFFFFF;
+    height: 100vh;
+}
+
+/*Creacion para la propiedad pra todos los elementos "*" */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header .options a svg {
+    height: 24px;
+    width: 24px;
+}
+
+main {
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+main .container figure {
+    max-height: 92px;
+}
+
+main .container figure img {
+    height: 100%;
+}
+
+main .container .searcher-buttons button {
+    border: none;
+    border-radius: 6px;
+    background-color: #f8f8fa;
+    padding: 12px;
+    color: #3c4043;
+}
+
+main .container .searcher-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+main .container .searcher-buttons button {
+    border: none;
+    border-radius: 6px;
+    background-color: #f8f8fa;
+    padding: 12px;
+    color: #3c4043;
+
+}
+
+main .container p {
+    font-size: small;
+}
+
+main .container figure img {
+    height: 100%;
+}
+
+main .container .searcher {
+    height: 40px;
+    width: 450px;
+    padding: 8px;
+}
+
+main .container .searcher input {
+    width: 100%;
+}
+
+main .container .searcher-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.search-logo {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-image: url(assets/search-logo.svg);
+}
+
+main .container .searcher {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 450px;
+    padding: 8px;
+}
+
