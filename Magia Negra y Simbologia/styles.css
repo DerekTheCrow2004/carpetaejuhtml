@@ -1,0 +1,95 @@
+body {
+    background:url(Background-satanic.gif);
+    height: 100%;
+    width: 100%;
+}
+
+.name .img img { 
+    width:180px ; 
+    height: 200px; 
+} 
+
+.info { 
+width:60%; 
+height: auto; 
+background: red; 
+margin: 5% auto; 
+padding: 20px; 
+border-radius: 20px;
+}
+
+.name .content .titulonombre  { 
+    color:red; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-weight: bolder; 
+    font-size: 50px; 
+    display: inline; 
+    margin-right: 50px; 
+} 
+
+.name .content .texto  { 
+    color:red; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-weight: bolder; 
+    font-size: 20px; 
+    display: inline; 
+    margin-right: 50px; 
+}
+
+.name .img2 { 
+    position: absolute; 
+    top:87%; 
+    left: 3%;  
+}
+
+.name .img3 { 
+    position: absolute; 
+    top:178%; 
+    right: 2%;  
+}
+
+.name .img4 {
+    position: absolute;
+    top:253%;
+    left: 3%;
+}
+
+.section { 
+width:20%; 
+left:2%;
+height: auto; 
+background: red; 
+margin: 5%; 
+padding: 20px; 
+border-radius: 20px;
+}
+
+.section2 { 
+width:20%; 
+left:2%;
+height: auto; 
+background: red; 
+margin: 5%; 
+padding: 20px; 
+border-radius: 20px;
+}
+
+.name .img5 {
+    position: absolute;
+    top:335%;
+    left: 37%;
+    
+}
+
+.footer { 
+width:27%; 
+height: auto; 
+background: red; 
+margin: 1%; 
+padding: 3px; 
+border-radius: 50px;
+}
+
+.audio {
+    background: red;
+}

@@ -1,0 +1,1 @@
+alert("Advertencia⚠️ Esta pagina contiene contenido sensible, locura y temas reales en su contenido, se recomienda a discrecion y responsabilidad⚠️ 💀Se recomienda reproducir el audio en la parte superior para generar ambiente a la pagina cada vez que la explores💀");
